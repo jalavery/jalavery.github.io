@@ -1,0 +1,22 @@
+name: "Personal Website"
+output_dir: "."
+navbar:
+  title: "Jessica Lavery"
+  right:
+    - text: "research"
+      href: projects.html
+    - text: "CV"
+      href: files/Lavery_Resume_2019_01.pdf
+    - text: "out of office"
+      href: hobbies.html 
+    - icon: fa-envelope fa-lg
+      href: https://www.mskcc.org/profile/jessica-lavery 
+    - icon: ai-google-scholar-square ai-lg
+      href: https://scholar.google.com/citations?user=4_XbhlgAAAAJ&hl=en 
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/jalavery/
+    - icon: fa-github fa-lg
+      href: https://github.mskcc.org/laveryj
+output:
+  html_document:
+    theme: flatly

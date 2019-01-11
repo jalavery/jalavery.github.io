@@ -1,0 +1,39 @@
+---
+title: "What I'm working on"
+---
+<br>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="fonts/academicons.min.css"/>
+
+###Women in STEM
+* [Language and Tools for Establishing Influence as an Early-Career Statistician](https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802) Women in Statistics and Data Science, 2017  
+    - [Corresponding article](http://magazine.amstat.org/blog/2018/05/01/earlycareertools/)  
+* [New York Academy of Sciences' 1000 girls, 1000 futures mentoring program](http://magazine.amstat.org/blog/2018/11/01/1000-girls-1000-futures/?utm_source=informz&utm_medium=email&utm_campaign=amstatnews&_zs=UvcOe1&_zl=vBfH5)  
+<br>
+
+###Hospital profiling
+<b>Related publications: </b>  
+<b>Previous presentations: </b>  
+[Practical and Methodological Issues Related to Profiling Hospitals in the United States](https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548) Joint Statistical Meetings, 2018  
+
+<b> Upcoming presentations: </b>  
+Real World Evidence to Profile Hospitals`’` Quality of Surgical Cancer Care at [AcademyHealth Datapalooza](https://www.academyhealth.org/events/site/2019-health-datapalooza), March 2019   
+<i> Abstract: Despite pressure to provide high quality, cost-effective cancer care, few data sources have been validated to facilitate measurement of provider performance. Administrative claims do not include clinical information regarding the cancer diagnosis, leading to questions of whether patients can be accurately identified and whether hospitals’ performance can be assessed in the absence of such information. We explored these questions in Medicare claims and will discuss the implications for the future of quantifying the quality of cancer care. This will allow patients to make informed decisions regarding where to pursue their care and providers to lead efforts to improve patient outcomes. 
+</i><br><br>
+
+###Project management shiny application  
+* Available on [GitHub](https://github.mskcc.org/laveryj/Project-Management-Shiny-App)
+<br><br>
+
+###Other projects  
+* Opioid use in older adults with cancer  
+* Quality of life in melanoma patients treated with immunotherapy  
+* Hopsital interpreter policies  
+<br>
+
+###Learning
+* Git
+    + [Happy Git and GitHub for the useR](http://happygitwithr.com/)  
+<br>
+* Shiny
+    + Julia Wrobel's R Ladies [tutorial](http://juliawrobel.com/tutorials/shiny_tutorial_nba.html) with NBA Data for the R Ladies NYC meetup on May 8, 2018  
