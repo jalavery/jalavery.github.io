@@ -1,12 +1,16 @@
 ---
-title: "Jessica Lavery"
+# title: "Jessica Lavery"
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">  
 <link rel="stylesheet" href="fonts/academicons.min.css"/>
 
-<i>Research Biostatistican, Memorial Sloan Kettering Cancer Center</i>
-<br><br>
+<!-- <i>Research Biostatistican, Memorial Sloan Kettering Cancer Center</i> -->
+<!-- <br><br> -->
 
-<img src="images/Lavery_170407_12.jpg" style="width:25%; margin-right: 20px" align="left">
+<img src="images/Lavery_170407_12.jpg" style="width:35%; margin-right: 20px" align="left">
 
-I work as a Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics). I graduated from UNC Chapel Hill in 2014 with a MS in Biotatistics. My master's thesis investigated methods of handling missing data in type I diabetes clinical trials. I have worked on autoimmune disease, ob/gyn, orthopedics and oncology research. My current research interests involve exploring the methodological challenges and practical considerations of publicly profiling providers of surgical cancer care.  
+I work as a Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics). I graduated from UNC Chapel Hill with a MS in Biotatistics in 2014. My master's thesis investigated methods of handling missing data in type I diabetes clinical trials.   
+
+I have previously worked on autoimmune disease, ob/gyn, orthopedics and oncology research. My current research interests involve exploring the methodological challenges and practical considerations of publicly profiling providers of surgical cancer care.  
+
+<!-- These days I'm focused on debating whether or not to pursue a DrPH, you can find me trying to figure out how to navigate life in [NYC](https://www.timeout.com/newyork/things-to-do/rants) and drinking copious amounts of coffee @ [Remi](https://www.instagram.com/remi.nyc/?hl=en). -->
