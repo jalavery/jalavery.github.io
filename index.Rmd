@@ -10,14 +10,3 @@ title: "Jessica Lavery"
 <img src="images/Lavery_170407_12.jpg" style="width:25%; margin-right: 20px" align="left">
 
 I work as a Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics). I graduated from UNC Chapel Hill in 2014 with a MS in Biotatistics. My master's thesis investigated methods of handling missing data in type I diabetes clinical trials. I have worked on autoimmune disease, ob/gyn, orthopedics and oncology research. My current research interests involve exploring the methodological challenges and practical considerations of publicly profiling providers of surgical cancer care.  
-
-<br><br>
-
-When I'm not thinking about...  
-* Statistical methods for profiling providers of surgical cancer care  
-* Opioid use in older adults with cancer  
-* Debating to PhD or not to PhD?  
-
-...you can find me  
-* Drinking copious amounts of coffee @ [Remi](https://www.instagram.com/remi.nyc/?hl=en)  
-* Trying to figure out how to navigate life in [NYC](https://www.timeout.com/newyork/things-to-do/rants)  
