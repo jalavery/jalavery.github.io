@@ -11,13 +11,16 @@ title: "When my out of office is up you can find me..."
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##Taking pictures
-<img src="images/pictures_photog.png" style="width:25%; margin-right: 20px" align="left"> <img src="images/pictures_juggle.jpg" style="width:25%; margin-right: 20px" align="left">   
+<img src="images/pictures_photog.png" style="width:25%; margin-right: 10px" align="left"> <img src="images/pictures_jellyfish.jpg" style="width:25%; margin-right: 10px" align="left"> <img src="images/pictures_NYC.jpg" style="width:25%; margin-right: 10px" align="left">  
+<br><br><br><br><br><br><br><br><br><br>
+<img src="images/pictures_balloons.jpg" style="width:25%; margin-right: 10px" align="left">  <img src="images/pictures_juggle.jpg" style="width:25%; margin-right: 10px" align="left">  <img src="images/pictures_rose.jpg" style="width:25%; margin-right: 10px" align="left">  
 <br><br><br><br><br><br><br><br><br><br>
 
 ###(Mostly of my dog)
-<img src="images/lulu.jpg" style="width:25%; margin-right: 20px" align="left">  
+<img src="images/lulu.jpg" style="width:25%; margin-right: 10px" align="left">  <img src="images/lulu2.jpg" style="width:25%; margin-right: 10px" align="left">  <img src="images/lulu3.jpg" style="width:25%; margin-right: 10px" align="left">  
 
-<br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##[Reading](https://www.goodreads.com/user/show/54387017-jessica)
 <img src="images/book_ove.jpg" style="width:15%; margin-right: 10px" align="left"><img src="images/book_confidence.jpg" style="width:15%; margin-right: 10px" align="left"><img src="images/book_math.jpg" style="width:15%; margin-right: 10px" align="left"><img src="images/book_malala.jpg" style="width:15%; margin-right: 10px" align="left"><img src="images/book_alwaysis.jpg" style="width:15%; margin-right: 10px" align="left">  
