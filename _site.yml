@@ -5,9 +5,13 @@ navbar:
   right:
     - text: "research"
       href: projects.html
+    - text: "publications"
+      href: publications.html
+    - text: "presentations"
+      href: presentations.html
     - text: "CV"
       href: files/Lavery_Resume_2019_01.pdf
-    - text: "out of office"
+    - text: "hobbies"
       href: hobbies.html 
     - icon: fa-envelope fa-lg
       href: https://www.mskcc.org/profile/jessica-lavery 

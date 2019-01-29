@@ -1,0 +1,19 @@
+---
+title: "Presentations"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="fonts/academicons.min.css"/>
+
+##Upcoming presentations
+Real World Evidence to Profile Hospitals\' Quality of Surgical Cancer Care at [AcademyHealth Datapalooza](https://www.academyhealth.org/events/site/2019-health-datapalooza), March 2019   
+<i> Abstract: Despite pressure to provide high quality, cost-effective cancer care, few data sources have been validated to facilitate measurement of provider performance. Administrative claims do not include clinical information regarding the cancer diagnosis, leading to questions of whether patients can be accurately identified and whether hospitals’ performance can be assessed in the absence of such information. We explored these questions in Medicare claims and will discuss the implications for the future of quantifying the quality of cancer care. This will allow patients to make informed decisions regarding where to pursue their care and providers to lead efforts to improve patient outcomes. 
+</i><br><br>
+
+##Past presentations
+  [Practical and Methodological Issues Related to Profiling Hospitals in the United States](https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548), Joint Statistical Meetings, 2018  
+  <br>
+  [Language and Tools for Establishing Influence as an Early-Career Statistician](https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802) Women in Statistics and Data Science Conference, 2017  
