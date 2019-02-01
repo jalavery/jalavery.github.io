@@ -1,14 +1,17 @@
 name: "Personal Website"
 output_dir: "."
 navbar:
-  title: "Jessica Lavery"
+  title: "Jessica Lavery" 
   right:
-    - text: "research"
-      href: projects.html
-    - text: "publications"
-      href: publications.html
-    - text: "presentations"
-      href: presentations.html
+    
+    - text: "portfolio"
+      menu:
+        - text: "Oncology"
+          href: portfolio_onc.html
+        - text: "Obstetrics & Gynecology"
+          href: portfolio_obgyn.html
+        - text: "Leadership & Volunteer activities"
+          href: portfolio.html
     - text: "CV"
       href: files/Lavery_Resume_2019_01.pdf
     - text: "hobbies"

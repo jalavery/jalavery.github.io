@@ -1,0 +1,20 @@
+---
+title: "Other areas of focus"
+output:  html_document
+---
+
+<!-- ##Editorials & commentaries -->
+<!-- * Ananth CV, <b> Lavery JA</b>. Biases in secondary analyses of randomised trials: recognition, correction, and implications. BJOG. 2016 Jun;123(7):1056-9. doi: 10.1111/1471-0528.13732. PubMed PMID: 27206028. -->
+<!-- * Placeholder for editorial with Kathy -->
+
+##Women in STEM
+* Presented [Language and Tools for Establishing Influence as an Early-Career Statistician](https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802) at the 2017 Women in Statistics and Data Science Conference   
+    - Corresponding AmStat News [article](http://magazine.amstat.org/blog/2018/05/01/earlycareertools/)  
+* Mentor in the New York Academy of Sciences' 1000 girls, 1000 futures mentoring program
+    - Corresponding AmStat News [article](http://magazine.amstat.org/blog/2018/11/01/1000-girls-1000-futures/?utm_source=informz&utm_medium=email&utm_campaign=amstatnews&_zs=UvcOe1&_zl=vBfH5)  
+*  Member of [RLadies NYC](http://www.rladiesnyc.org/)  
+*  Volunteer Coordinator for the [Caucus for Women in Statistics](https://cwstat.org/)  
+<br>
+
+##[DataKind](https://www.datakind.org/) Volunteer
+*  Review applications for Google.org’s [AI Impact Challenge](https://ai.google/social-good/impact-challenge) on the criteria of impact, feasibility, use of artificial intelligence (AI), scalability and responsibility to help identify the most promising ideas that aim to apply AI to achieve positive social impact.  
