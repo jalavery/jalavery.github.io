@@ -2,12 +2,14 @@
 title: "Obstetrics & Gynecology"
 output: html_document
 ---
+<link rel="stylesheet" href="fonts/academicons.min.css"/>
+
 
 ##Safe Motherhood Initiative (SMI)
 In 2013, the SMI convened interprofessional workgroups on [hemorrhage](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1676976), [venous thromboembolism](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1668549), and [hypertension](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1673632) tasked with developing evidence-based care bundles. Participating hospitals submitted data measured before, during, and after implementation of the bundles. Maternal morbidity and mortality were analyzed for trends stratified by implementation status.  
 
 ##Age-period-cohort analyses
-[Age-period-cohort analyses](https://www.mailman.columbia.edu/research/population-health-methods/age-period-cohort-analysis) are an epidemiologic method for parsing out the independent contributions of age, period (year) and cohort on a particular outcome, given their linear dependency (period = cohort + age). We applied this approach to study the contributions of maternal age, period of birth, and maternal birth cohort on [gestational diabetes](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14236); [primary and repeat cesarean deliveries](https://www.ingentaconnect.com/content/wk/ede/2017/00000028/00000004/art00022); and [delivery, trauma and surgery for pelvic organ prolapse](https://www.sciencedirect.com/science/article/pii/S000293781600315X).  
+[Age-period-cohort analyses](https://www.mailman.columbia.edu/research/population-health-methods/age-period-cohort-analysis) are an epidemiologic method for parsing out the independent contributions of age, period (year) and cohort on a particular outcome, given their linear dependency (period = cohort + age). We applied this approach to study the contributions of maternal age, period of birth, and maternal birth cohort on [gestational diabetes](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14236) (Among BJOG's top cited papers, 2017-2018); [primary and repeat cesarean deliveries](https://www.ingentaconnect.com/content/wk/ede/2017/00000028/00000004/art00022); and [delivery, trauma and surgery for pelvic organ prolapse](https://www.sciencedirect.com/science/article/pii/S000293781600315X).  
 
 ##Mediation analyses  
 Mediation analyses are a type of causal inference used to decompose the total effect of an exposure on an outcome into the direct effect and the indirect effect (i.e. the effect that is mediated) in order to better characterize the nature of the relationship between the exposure and the outcome. We implemented a mediation analysis to determine the extent to which the effect of [placental abruption on neurodevelopmental outcomes is mediated through preterm delivery](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14049).  
