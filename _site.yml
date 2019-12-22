@@ -6,14 +6,14 @@ navbar:
     
     - text: "portfolio"
       menu:
-        - text: "Oncology"
+        - text: "Current: Oncology"
           href: portfolio_onc.html
-        - text: "Obstetrics & Gynecology"
+        - text: "Previous: Obstetrics & Gynecology"
           href: portfolio_obgyn.html
         - text: "Leadership & Volunteer Activities"
           href: portfolio.html
     - text: "CV"
-      href: files/Lavery_Resume_2019_04_NoName.pdf
+      href: files/Lavery_Resume_2019_12.pdf
     - text: "hobbies"
       href: hobbies.html 
     - icon: fa-envelope fa-lg
@@ -26,4 +26,4 @@ navbar:
       href: https://github.mskcc.org/laveryj
 output:
   html_document:
-    theme: flatly
+    theme: paper

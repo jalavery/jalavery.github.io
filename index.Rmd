@@ -18,8 +18,9 @@
 <!-- <i>Research Biostatistican, Memorial Sloan Kettering Cancer Center</i> -->
 <!-- <br><br> -->
 
-<img src="images/Lavery_170407_12.jpg" style="width:40%; margin-right: 15px" align="left">
+<img src="images/Lavery_170407_12.jpg" style="width:40%; margin-right: 10px" align="left">
 
-I work as a Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics). I graduated from UNC Chapel Hill with a MS in Biotatistics in 2014, where my master's thesis investigated methods of handling missing data in type I diabetes clinical trials.   
+I work as a Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics). I graduated from UNC Chapel Hill with a MS in Biotatistics in 2014, where my master's thesis investigated methods of handling missing data in type I diabetes clinical trials.   As of Fall 2019, I am also a part-time student in the Doctor of Public Health (DrPH) program in Biostatistics at [Columbia University](https://www.mailman.columbia.edu/academics/degrees/doctoral-programs/doctor-public-health/biostatistics/drph-student-profiles). 
 
-I have worked in various therapeutic areas including autoimmune disease, obstetrics and gynecology, orthopedics, and oncology, whre I have applied statistical methods such as age-period-cohort analyses, mediation analyses, and hierarchical models, among others. Currently, I am exploring the methodological challenges and practical considerations of publicly profiling providers of surgical cancer care.  Click the link above to explore my portfolio for more details about what I'm working on and a select snapshot of previous projects.
+I have worked in a variety of therapeutic areas including autoimmune disease, obstetrics and gynecology, orthopedics, and oncology, whre I have applied statistical methods such as age-period-cohort analyses, mediation analyses, and hierarchical models, among others. Click the link above to explore my portfolio for more details about what I'm currently working on.
+
