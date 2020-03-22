@@ -8,7 +8,7 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="fonts/academicons.min.css"/>
 
-##Upcoming presentations
+## Upcoming presentations
 Real World Evidence to Profile Hospitals\' Quality of Surgical Cancer Care at [AcademyHealth Datapalooza](https://www.academyhealth.org/events/site/2019-health-datapalooza), March 2019   
 <i> Abstract: Despite pressure to provide high quality, cost-effective cancer care, few data sources have been validated to facilitate measurement of provider performance. Administrative claims do not include clinical information regarding the cancer diagnosis, leading to questions of whether patients can be accurately identified and whether hospitals’ performance can be assessed in the absence of such information. We explored these questions in Medicare claims and will discuss the implications for the future of quantifying the quality of cancer care. This will allow patients to make informed decisions regarding where to pursue their care and providers to lead efforts to improve patient outcomes. 
 </i><br><br>
