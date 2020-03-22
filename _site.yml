@@ -13,7 +13,7 @@ navbar:
         - text: "Leadership & Volunteer Activities"
           href: portfolio.html
     - text: "CV"
-      href: files/Lavery_Resume_2019_12.pdf
+      href: files/lavery_pagedown_resume.html
     - text: "hobbies"
       href: hobbies.html 
     - icon: fa-envelope fa-lg
