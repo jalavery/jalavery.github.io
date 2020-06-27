@@ -1,0 +1,85 @@
+---
+title: "It's Time To Shine with {timetrackR}"
+date: "June 2020"
+---
+
+While tracking time may seem like a mundane task that in and of itself consumes your time, if monitored and assessed regularly it can be useful to create a record of your work and to identify potential areas for improving efficiency. 
+
+Existing time tracking apps and websites have default visualizations and insights, but they are often behind a pay wall or not entirely relevant to the academic research setting. 
+
+The [{timetrackR}](https://timetrackR.shinyapps.io/timetrackR/) shinydashboard utilizes time tracking data from [toggl](https://toggl.com/) to provide a high-level summary of the percentage of time spent by project, client, task or project phase; the total number of hours spent on each project or by client; and a timeline framing each project’s trajectory from planning through analysis and manuscript preparation. These simple metrics can be effective in performing a time audit to identify patterns that you may not have otherwise observed, and can be used to inform your priorities and responsibilities going forward.
+
+{timetrackR} was previously presented at [RLadies NYC](https://www.meetup.com/rladies-newyork/events/268481404/) (February 2020) and at Memorial Sloan Kettering Cancer Center's Strategy and Innovation R Presenters series (April 2020). Both presentations can be found on the [{timetrackR} GitHub repository](https://github.com/jalavery/timetrackR). 
+
+### Why track your time?
+
+As a statistician working with multiple collaborators at any given time, it can often feel like there aren't enough hours in the day. I might start the day working on one project, check my email, bounce to another project, the phone rings and I have an impromptu meeting, I get back to that first project and all of a sudden it's 5pm and it's time to go home. In the short term, this works well; work is being accomplished and projects are moving along. However, in the long term, I have no recollection of how I have been spending my time. The inherent problem with this is that *it's hard to manage your time if you don't know how you're spending your time*. 
+
+Further, there's definitely some bias introduced by how much we enjoy working on a particular project. It can feel like we spend a lot of time on projects we don’t love and not enough time on projects we do. As a resource to the institution, we’re balancing many different clients, making it important to manage expectations and to work efficiently. 
+
+### How to track your time
+
+The goal of documenting how you are spending your time is to answer the question, "Where is my time going, and can it be allocated more efficiently?"
+
+Queue [toggl](www.toggl.com). There are many apps and websites that allow you to document how you are spending your time, but I chose to start with toggl due to its popularity among colleagues and ease of use. toggl can be accessed via website or desktop app, and can run in real time or you can retroactively enter your hours. Time is grouped by *tasks, projects and clients*, and you can use *tags* to further identify groups of tasks. Though I don't use it, toggl also offers functionality for documenting time across a team and for tracking billable hours. 
+
+When I started tracking my time with toggl, I really liked that it was free and that there wasn't a lot of up-front set up required. However, the free insights only include basic summaries of the total hours per day and percent of time by project or client. Even if I were to commit to the paid version, the additional insights pertain primarily to billable hours, which isn't as relevant to my work. The key feature of toggl is that you can export your data. With this feature, enters {timetrackR}. 
+
+### What is {timetrackR}?
+
+{timetrackR} is a shinydashboard that takes recorded hours logged in toggl and creates useful data visualizations and summaries of how you’re spending your time. 
+
+I started working on it because I was interested in full customizability with respect to how I was analyzing my time. From a professional development perspective, at the time I initially started working on {timetrackR} I didn't know R, and I (naively) thought a shiny app was the way to go. In hindsight, this was a jump straight into the deep end, but the reactivity of shiny kept me interested and committed to seeing the project through. 
+
+I created {timetrackR} looking to have simple, easy to interpret metrics so that I didn't have to spend all of my time analyzing my time. I wanted something that I could use to get a big picture of how I was spending my time so that I could make more accurate forecasts going forward. 
+
+
+### Time tracking metrics
+
+**Percent effort:** Time spent per project/client/project phase
+
+Looking at a summary of percent effort, along with percent effort over time, allows you to address things like allocated vs expended effort, task management, and really figure out how to start protecting your time.
+
+In soft money environments, percent effort is especially useful for figuring out how well current projects align with percent effort on a grant. Though the percent of time isn't expected to match up perfectly, if you are funded for 5% of your salary for something that is taking up 80% of your time, some re-negotiation may be necessary. 
+
+As a statistician, much of the work that I do isn't actually statistics per se. There is a lot of collaborative work (meetings, phone calls), data management, and manuscript writing. Taking a look at what percent of my time is spent on each task can help me figure out if my time is being appropriately allocated. Though I wouldn't expect 100% of my time to be spent on statistical analyses, if only 5% of my time were being spent on analyses and the other 95% were being spent in meetings, some re-evaluation would be necessary. 
+
+Lastly, examining your percent effort across projects and tasks can be useful for protecting your time. I often look at what percentage of my time is being spent on professional development activities, and whether that is more or less than I want it to be. Further, it's useful to figure out what percentage of time is spent on departmental activities (seminars, interviews, etc.) or other non-project work, so that you can appropriately account for that when forecasting how long you will need to complete a project. 
+
+Example of a lesson learned from using {timetrackR}: In the last 3 months, >75% of my time has been devoted to a single project. Can we can bring someone else on to that project? (percent effort)
+
+**Total hours:** Cumulative number of hours spent on a project or working with a client
+
+Looking at total hours can be useful to examine the time invested to products generated. For a time-intensive project, was the result multiple manuscripts? Multiple grants? A publication in a high-impact journal? This is really getting at whether you are getting a good return on your time investment. 
+
+The total number of hours spent on a project can also be useful to figure out when to cut your losses and when to pursue a project further. If you've spent 200+ hours on a project and aren't even close to achieving the deliverable, maybe it's time to assess whether that project is feasible. Conversely, if you've spent 100+ hours on a conference abstract or presentation but weren't planning to turn it into a manuscript, you may reconsider given that you've already put in a lot of effort.
+
+This is also a useful metric when guiding project workflow and managing re-analysis. It can be used as a bargaining tool if re-analyses are being requested, but a collaborator has not yet delivered on their end. An example may be, "We’ve spent 130 hours on the analysis, please circulate the manuscript draft before we complete additional analyses."
+
+Example of a lesson learned from using {timetrackR}: I spent more hours on a presentation for a conference than I thought I did. Maybe I should turn that into a manuscript? (total hours)
+
+
+**Project Timeline:** Visualization of project phase by calendar time 
+
+A project timeline demonstrates a big picture overview of what projects are going on when and for how long. The basis for the figure is a Gantt Chart, which is usually used prospectively, but good for a year in review when used retrospectively. When I look at the project timeline, I look at the tasks I had going on at a particular time (manuscript writing, analysis, etc.) and compare how long each project phase lasted across different types of projects. This helps to highlight potential problems in project flow. One red flag is projects transitioning between project planning, analysis, back to planning, back to analysis - it indicates that there may be some project management problems that need to be resolved before proceeding. 
+
+An example of a lesson learned from {timetrackR}: A particular project transitioned between analysis and re-analysis several times throughout the project’s life cycle. Is it time for a regroup with the investigator? (project timeline)
+
+### Workflow integration
+
+Have I convinced you of the utility of tracking your time yet? If so, the next steps highlight how to integrate {timetrackR} into your workflow.
+
+On a daily basis: Use toggl (or another app, though timetrackR was established to work directly with data from toggl, so using another app may require some additional data manipulation before data can be read by {timetrackR}) to document your time. This requires minimal setup for projects and clients, and I spend less than 5 minutes per day documenting my time.
+
+Weekly? Monthly? Annually?: Export data from toggl into timetrackR to look at how you’ve been spending your time. See the [*About*](https://timetrackR.shinyapps.io/timetrackR/) tab on {timetrackR} for instructions about how export your data from toggl and into {timetrackR}. 
+
+### Caveats
+Be careful about your denominators: All of the visualizations are based on what you recorded. Your toggl time log doesn't have to be perfect, but if you forget to log your time for a few weeks, your {timetrackR} visualizations won't be entirely accurate.
+
+Data viz is entirely retrospective: it’s a summary of what you’ve done and doesn’t include projected time allocations. The idea is to learn from past patterns to figure out how you want to allocate your time going forward. 
+
+### Summary
+
+All in all, tracking and analyzing your time doesn't have to be a laborious process. In fact, very few metrics are needed to gain a general understanding of how you’re spending your time. This information can be used to align your work with how you intend to spend your time.
+
+Link to [{timetrackR} app](https://timetrackR.shinyapps.io/timetrackR/) and [GitHub repository](https://github.com/jalavery/timetrackR)
