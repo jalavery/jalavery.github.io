@@ -24,6 +24,9 @@ output:  html_document
     - Corresponding AmStat News [article](http://magazine.amstat.org/blog/2018/11/01/1000-girls-1000-futures/?utm_source=informz&utm_medium=email&utm_campaign=amstatnews&_zs=UvcOe1&_zl=vBfH5)  
 *  Member of [RLadies NYC](http://www.rladiesnyc.org/)  
 *  Volunteer Coordinator for the [Caucus for Women in Statistics](https://cwstat.org/) (2019-2020)    
+* Professional Development Committee member, [Caucus for Women in Statistics](https://cwstat.org/) (2020-)
+* Moderated the March 2020 Caucus for Women in Statistics Lunch & Learn on [Navigating social media and managing your professional presence online](https://cwstat.org/march-31st-lunch-learn-on-creating-a-professional-online-presence-view-recording/). Check out my [blog post](blog_cws_social_media_webinar.html) about this Lunch & Learn for more information. 
+
 <br>
 
 ## [DataKind](https://www.datakind.org/) Volunteer

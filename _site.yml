@@ -14,6 +14,12 @@ navbar:
           href: portfolio.html
     - text: "CV"
       href: files/lavery_pagedown_resume.html
+    - text: "blog"
+      menu:
+        - text: "{timetrackR}"
+          href: blog_timetrackr.html
+        - text: "CWS Social Media Webinar"
+          href: blog_cws_social_media_webinar.html
     - text: "hobbies"
       href: hobbies.html 
     - icon: fa-envelope fa-lg
