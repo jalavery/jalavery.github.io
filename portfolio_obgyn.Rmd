@@ -1,5 +1,5 @@
 ---
-title: "Obstetrics & Gynecology"
+title: "Obstetrics & Gynecology Portfolio"
 output: html_document
 ---
 <link rel="stylesheet" href="fonts/academicons.min.css"/>
@@ -13,17 +13,24 @@ output: html_document
   gtag('config', 'UA-137654852-1');
 </script>
 
-## Safe Motherhood Initiative (SMI)
-In 2013, the SMI convened interprofessional workgroups on [hemorrhage](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1676976), [venous thromboembolism](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1668549), and [hypertension](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1673632) tasked with developing evidence-based care bundles. Participating hospitals submitted data measured before, during, and after implementation of the bundles. Maternal morbidity and mortality were analyzed for trends stratified by implementation status.  
+*I worked as a Biostatistician in the Columbia University Medical Center Department of Obstetrics and Gynecology from 2014-2016 as part of a team of four Master's level biostatisticians and a faculty-level epidemiologist. Below are a few projects that highlight my work on this team, as well as the statistical tools that were applied in collaborative projects.*
 
-##Age-period-cohort analyses
+### Safe Motherhood Initiative (SMI)
+
+In 2013, the SMI convened inter-professional working groups tasked with developing evidence-based care bundles for [hemorrhage](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1676976), [venous thromboembolism](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1668549), and [hypertension](https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0038-1673632). Participating hospitals submitted data measured before, during, and after implementation of the bundles. Maternal morbidity and mortality were analyzed for trends stratified by implementation status. As a member of the Statistical Coordinating Center for this project, I was responsible for coordinating with participating hospitals to ensure high data quality, providing monthly reports flagging potential data entry errors, as well as for the eventual analysis of data.
+
+### Age-period-cohort analyses
+
 [Age-period-cohort analyses](https://www.mailman.columbia.edu/research/population-health-methods/age-period-cohort-analysis) are an epidemiologic method for parsing out the independent contributions of age, period (year) and cohort on a particular outcome, given their linear dependency (period = cohort + age). We applied this approach to study the contributions of maternal age, period of birth, and maternal birth cohort on [gestational diabetes](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14236) (Among BJOG's top cited papers, 2017-2018); [primary and repeat cesarean deliveries](https://www.ingentaconnect.com/content/wk/ede/2017/00000028/00000004/art00022); and [delivery, trauma and surgery for pelvic organ prolapse](https://www.sciencedirect.com/science/article/pii/S000293781600315X).  
 
-## Mediation analyses  
+### Mediation analyses 
+
 Mediation analyses are a type of causal inference used to decompose the total effect of an exposure on an outcome into the direct effect and the indirect effect (i.e. the effect that is mediated) in order to better characterize the nature of the relationship between the exposure and the outcome. We implemented a mediation analysis to determine the extent to which the effect of [placental abruption on neurodevelopmental outcomes is mediated through preterm delivery](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14049).  
 
-## Hierarchical modeling
+### Hierarchical modeling
+
 Multilevel, or hierarchical, modeling adjusts estimates of variance to account for the clustering of patients within hospitals. We utilized multilevel models to assess the associations between [placental abruption](https://www.sciencedirect.com/science/article/pii/S0002937815011205) and [severe pre-eclampsia](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1111/1471-0528.14384) and maternal complications.  
 
-## Meta-analyses
+### Meta-analyses
+
 Pooling data across published studies, we performed systematic reviews and meta-analyses of [placental implantation abnormalities and risk of preterm delivery](https://www.sciencedirect.com/science/article/pii/S0002937815005359) and [ the efficacy and safety of cervical ripening agents in women with a scarred uterus](https://www.sciencedirect.com/science/article/pii/S0002937816005299).  

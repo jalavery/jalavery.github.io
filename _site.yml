@@ -8,10 +8,10 @@ navbar:
       menu:
         - text: "Current: Oncology"
           href: portfolio_onc.html
-        - text: "Previous: Obstetrics & Gynecology"
+        - text: "Past Experience: Obstetrics & Gynecology"
           href: portfolio_obgyn.html
-        - text: "Leadership & Volunteer Activities"
-          href: portfolio.html
+        - text: "Service"
+          href: portfolio_service.html
     - text: "CV"
       href: files/lavery_pagedown_resume.html
     - text: "blog"
