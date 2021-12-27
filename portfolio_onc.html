@@ -13,12 +13,22 @@
 
 <title>Oncology Portfolio</title>
 
+<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -35,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +57,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 
@@ -88,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -354,7 +314,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -373,12 +333,20 @@ $(document).ready(function () {
 
   gtag('config', 'UA-137654852-1');
 </script>
-<p><em>I currently work as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. The below highlights a few research programs that I have been a part of, as well as related presentations.</em></p>
+<p><em>I currently work as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. The below highlights a few research programs that I have been a part of, as well as related publications and presentations.</em></p>
 <div id="aacr-project-genie-bpc" class="section level3">
 <h3>AACR Project GENIE BPC</h3>
 <p>American Association for Cancer Research (AACR) project GENIE BPC (Genomics Evidence Neoplasia Information Exchange Biopharma Collaborative) is a cross-institution collaboration between MSKCC, Dana Farber Cancer Institute and Vanderbilt-Ingram Cancer Center with biopharmaceutical partners working towards linking cancer genomic sequencing data with clinical treatment and outcomes data (<a href="https://www.aacr.org/Newsroom/Pages/News-Release-Detail.aspx?ItemID=1354">press release</a>). As a part of this team I am involved in writing standard operating procedures for quality assurance, maintaining a quality assurance dashboard, deriving variables that will be publicly released with the data and performing statistical analyses.</p>
+<p><font size="4"><i> Related Publications </font></i></p>
+<ul>
+<li>Lavery JA, Lepisto E, Brown S, et al. A Scalable Quality Assurance Process for Curating Oncology Electronic Health Records: The Project GENIE Biopharma Collaborative Approach. JCO Clinical Cancer Informatics (in press, 2021).</li>
+<li>Brown S, Lavery JA, Shen R, et al. <a href="https://jamanetwork.com/journals/jamaoncology/article-abstract/2785693">Implications of Selection Bias Due to Delayed Study Entry in Clinical Genomic Studies</a>. JAMA Oncology (2021).</li>
+<li>Kehl KL, Riely GJ, Lepisto EM, et al. <a href="https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2782339">Correlation Between Surrogate End Points and Overall Survival in a Multi-institutional Clinicogenomic Cohort of Patients With Non–Small Cell Lung or Colorectal Cancer</a>. JAMA Network Open (2021).</li>
+</ul>
 <p><font size="4"><i> Related Presentations </font></i></p>
 <ul>
+<li>Defining Real-World Recurrence in the AACR Project GENIE BPC Data. Presented at the Memorial Sloan Kettering Lung Cancer Oncology Group Seminar Series (May 2021) and the Hospital Research Forum (November 2021).<br />
+</li>
 <li><a href="https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309549">A Statistician’s Role in a Quality Assurance of a Multi-Institution Electronic Health Record Curation Project.</a> Contributed oral presentation, Women in Statistics and Data Science, 2020</li>
 <li><a href="https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.9622">Progression-free survival estimates in non-small cell lung cancer when RECIST is unavailable: Project GENIE’s integration of genomic, therapeutic and phenomic data.</a> Contributed poster presentation, American Society of Clinical Oncology (ASCO) Annual Meeting, 2020</li>
 </ul>
@@ -386,11 +354,17 @@ $(document).ready(function () {
 <div id="hospital-profiling" class="section level3">
 <h3>Hospital Profiling</h3>
 <p>As part of a team of statisticians, health services researchers and oncologists at MSK this portfolio of work focused on measuring the quality of surgical cancer care provided to patients across the United States. Hospital profiling refers to measuring each hospitals’ specific patient-level outcomes, and potentially reporting those outcomes publicly so that patients may make informed decisions regarding where to pursue care and hospitals may work towards improving their quality, when needed. This project is multifaceted, and involves validating a relevant data source for this endeavor, assessing variables essential for risk-adjustment, considering how to evaluate hospitals with few surgeries from which we can observe outcomes, and weighing the different statistical methods available to determine which is most appropriate given its implications.</p>
+<p><font size="4"><i> Related Publications </font></i></p>
+<ul>
+<li>Lipitz-Snyderman A, Lavery JA, Bach PB, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/31918457/">Assessment of variation in 30-day mortality following cancer surgeries among older adults across US hospitals</a>. Cancer Medicine (2020).</li>
+<li>Lavery JA, Lipitz-Snyderman A, Li D, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/31069903/">Assessing whether cancer stage is needed to evaluate measures of hospital surgical performance</a>. Journal of Evaluation in Clinical Practice (2020).</li>
+<li>Lavery JA, Lipitz-Snyderman A, Li D, et al. <a href="https://ascopubs.org/doi/full/10.1200/CCI.18.00093">Identifying Cancer-Directed Surgeries in Medicare Claims: A Validation Study Using SEER-Medicare Data</a>. JCO Clinical Cancer Informatics (2019).</li>
+</ul>
 <p><font size="4"><i> Related Presentations </font></i></p>
 <ul>
 <li><a href="https://ww2.amstat.org/meetings/ichps/2020/onlineprogram/AbstractDetails.cfm?AbstractID=307824">It’s getting hot in here: A novel application of heatmaps to health outcomes research.</a> Contributed presentation, International Conference on Health Policy Statistics, 2020</li>
 <li><a href="https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=306713">A comparison of provider profiling approaches with respect to low-volume providers.</a> Contributed presentation, Joint Statistical Meetings, 2019</li>
-<li><a href="https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968">Real World Evidence to Profile Hospitals' Quality of Surgical Cancer Care.</a> Contributed presentation, AcademyHealth Datapalooza, 2019<br />
+<li><a href="https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968">Real World Evidence to Profile Hospitals' Quality of Surgical Cancer Care.</a> Contributed presentation, Academy Health Datapalooza, 2019<br />
 </li>
 <li><a href="https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548">Practical and Methodological Issues Related to Profiling Hospitals in the United States.</a> Contributed panel session, Joint Statistical Meetings, 2018</li>
 </ul>
@@ -433,7 +407,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
