@@ -16,16 +16,16 @@ output:  html_document
   gtag('config', 'UA-137654852-1');
 </script>
 
-*I currently work as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. The below highlights a few research programs that I have been a part of, as well as related publications and presentations.*
+*Since 2017, I have worked as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. The below highlights a few research programs that I have been a part of, as well as related publications and presentations.*
 
 ### AACR Project GENIE BPC
 
-American Association for Cancer Research (AACR) project GENIE BPC (Genomics Evidence Neoplasia Information Exchange Biopharma Collaborative) is a cross-institution collaboration between MSKCC, Dana Farber Cancer Institute and Vanderbilt-Ingram Cancer Center with biopharmaceutical partners working towards linking cancer genomic sequencing data with clinical treatment and outcomes data ([press release](https://www.aacr.org/Newsroom/Pages/News-Release-Detail.aspx?ItemID=1354)). As a part of this team I am involved in writing standard operating procedures for quality assurance, maintaining a quality assurance dashboard, deriving variables that will be publicly released with the data and performing statistical analyses. 
+American Association for Cancer Research (AACR) project [GENIE BPC](https://www.mskcc.org/departments/epidemiology-biostatistics/biostatistics/project-genie-bpc-genomics-evidence-neoplasia-information-exchange-biopharma-collaborative) (Genomics Evidence Neoplasia Information Exchange Biopharma Collaborative) is a cross-institution collaboration between MSKCC, Dana Farber Cancer Institute and Vanderbilt-Ingram Cancer Center with biopharmaceutical partners working towards linking cancer genomic sequencing data with clinical treatment and outcomes data ([press release](https://www.aacr.org/Newsroom/Pages/News-Release-Detail.aspx?ItemID=1354)). As a part of the Statistical Coordinating Center, I am involved in writing standard operating procedures for quality assurance, maintaining a quality assurance dashboard, deriving variables that will be publicly released with the data and performing statistical analyses. 
 
 <font size="4"><i> Related Publications </font></i> 
 
-* Lavery JA, Lepisto E, Brown S, et al. A Scalable Quality Assurance Process for Curating Oncology Electronic Health Records: The Project GENIE Biopharma Collaborative Approach. JCO Clinical Cancer Informatics (in press, 2021).
-* Brown S, Lavery JA, Shen R, et al. [Implications of Selection Bias Due to Delayed Study Entry in Clinical Genomic Studies](https://jamanetwork.com/journals/jamaoncology/article-abstract/2785693). JAMA Oncology (2021).
+* Lavery JA, Lepisto E, Brown S, et al. [A Scalable Quality Assurance Process for Curating Oncology Electronic Health Records: The Project GENIE Biopharma Collaborative Approach](https://ascopubs.org/doi/full/10.1200/CCI.21.00105). JCO Clinical Cancer Informatics (2022).  
+* Brown S, Lavery JA, Shen R, et al. [Implications of Selection Bias Due to Delayed Study Entry in Clinical Genomic Studies](https://jamanetwork.com/journals/jamaoncology/article-abstract/2785693). JAMA Oncology (2021).  
 * Kehl KL, Riely GJ, Lepisto EM, et al. [Correlation Between Surrogate End Points and Overall Survival in a Multi-institutional Clinicogenomic Cohort of Patients With Non–Small Cell Lung or Colorectal Cancer](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2782339). JAMA Network Open (2021).
 
 <font size="4"><i> Related Presentations </font></i>  
@@ -34,6 +34,14 @@ American Association for Cancer Research (AACR) project GENIE BPC (Genomics Evid
 Memorial Sloan Kettering Lung Cancer Oncology Group Seminar Series (May 2021) and the Hospital Research Forum (November 2021).  
 * [A Statistician’s Role in a Quality Assurance of a Multi-Institution Electronic Health Record Curation Project.](https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309549) Contributed oral presentation, Women in Statistics and Data Science, 2020
 * [Progression-free survival estimates in non-small cell lung cancer when RECIST is unavailable: Project GENIE’s integration of genomic, therapeutic and phenomic data.](https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.9622) Contributed poster presentation, American Society of Clinical Oncology (ASCO) Annual Meeting, 2020
+
+### Exercise Oncology
+
+In collaboration with the [Exercise Oncology](https://www.mskcc.org/research-areas/topics/exercise-oncology) service at MSK, I have been a part of a number of protocols and research projects investigating the role of exercise in preventing cancer and improving survival among people with cancer. Select publications are highlighted below:
+
+* Michalski M, Rowed K, Lavery J, et al. [Validity of Estimated Cardiorespiratory Fitness in Patients With Primary Breast Cancer](https://www.jacc.org/doi/abs/10.1016/j.jaccao.2022.05.003). J Am Coll Cardiol CardioOnc. 2022 Jun, 4 (2) 210–219.  
+* Joshua W. Bliss, Jessica A. Lavery, Whitney P. Underwood, Su S. Chun, Gina A. Fickera, Catherine P. Lee, Stacie Corcoran, Molly A. Maloy, Fernanda C. Polubriaginof, Daniel W. Kelly, Jessica M. Scott, Paul C. Boutros, Chaya S. Moskowitz, Lee W. Jones; [Impact of Exercise on Susceptibility and Severity of COVID-19 in Patients with Cancer: A Retrospective Study](https://aacrjournals.org/cebp/article-abstract/31/5/1036/694740/Impact-of-Exercise-on-Susceptibility-and-Severity). Cancer Epidemiol Biomarkers Prev 1 May 2022; 31 (5): 1036–1042.  
+* Adams SC, McMillan J, Salline K, et al. [Comparing the reporting and conduct quality of exercise and pharmacological randomised controlled trials: a systematic review](https://bmjopen.bmj.com/content/11/8/e048218). BMJ Open 2021;11:e048218.
 
 ### Hospital Profiling
 
@@ -51,17 +59,3 @@ As part of a team of statisticians, health services researchers and oncologists 
 * [A comparison of provider profiling approaches with respect to low-volume providers.](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=306713) Contributed presentation, Joint Statistical Meetings, 2019
 * [Real World Evidence to Profile Hospitals\' Quality of Surgical Cancer Care.](https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968) Contributed presentation, Academy Health Datapalooza, 2019   
 * [Practical and Methodological Issues Related to Profiling Hospitals in the United States.](https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548) Contributed panel session, Joint Statistical Meetings, 2018   
-
-### Previous Health Outcomes Projects
-
-<font size="4"><i>Opioid use in older adults with cancer  </font></i>  
-Cancer survivors may be at increased risk of opioid-related harms because of exposure to opioids during treatment, high prevalence of pain after treatment, and heightened risk of addiction among people with tobacco- and alcohol-related cancers. Using the Surveillance, Epidemiology and End Results (SEER) registry linked to Medicare claims, we conducted a retrospective matched cohort study to compare receipt of chronic opioid therapy (90-days of continuous use) between cancer survivors and cancer-free controls from 2008 through 2014.  
-
-<font size="4"><i>Quality of life in melanoma patients treated with immunotherapy </font></i>   
-Given the rapid pace of incorporation of checkpoint inhibitors into practice and the rising number of patients treated with these drugs as part of routine care, an assessment of the impact of these agents on patient quality of life, with attention to both the symptom and financial burdens associated with immunotherapy, is necessary to optimize care. 
-
-<font size="4"><i>Hospital interpreter policies  </font></i>  
-Patients with limited English proficiency (LEP) are at risk of impaired communication with their clinicians and thus disparities in cancer treatment completion. Despite knowledge that the use of professional interpreters improves patient care for LEP patients, research has shown that clinicians underuse language services in favor of their own, often limited, non-English skills. We conducted a nation-wide hospital survey to investigate the current policies of hospitals that care for LEP cancer patients to inform guidelines for linguistically appropriate care, which was identified as a priority by the Commission to End Health Disparities.
-<br>
-
-<!-- * The prevalence of potentially modifiable functional deficits and the subsequent use of occupational and physical therapy by older adults with cancer -->

@@ -13,8 +13,8 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -247,7 +251,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     portfolio
      
     <span class="caret"></span>
@@ -268,7 +272,7 @@ $(document).ready(function () {
   <a href="files/lavery_pagedown_resume.html">CV</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     blog
      
     <span class="caret"></span>
@@ -287,7 +291,7 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="https://www.mskcc.org/profile/jessica-lavery">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -299,13 +303,13 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="https://www.linkedin.com/in/jalavery/">
-    <span class="fas fa-linkedin fa-lg"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/jalavery">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -336,8 +340,24 @@ $(document).ready(function () {
 <!-- <i>Research Biostatistican, Memorial Sloan Kettering Cancer Center</i> -->
 <!-- <br><br> -->
 <p><img src="images/Lavery_170407_12_round.png" style="width:25%; margin-right: 10px" align="left"></p>
-<p>I work as a Research Biostatistician in the Department of Epidemiology &amp; Biostatistics at <a href="https://www.mskcc.org/departments/epidemiology-biostatistics">Memorial Sloan Kettering Cancer Center</a> (MSK). As of Fall 2019, I am also a part-time student in the Doctor of Public Health (DrPH) program in Biostatistics at <a href="https://www.mailman.columbia.edu/academics/degrees/doctoral-programs/doctor-public-health/biostatistics/drph-student-profiles">Columbia University</a>, and recently <a href="https://pubmed.ncbi.nlm.nih.gov/33326283/">wrote</a> about what it’s like to be pursuing a degree in public health in the midst of a pandemic.</p>
-<p>I graduated from UNC Chapel Hill with a MS in Biostatistics in 2014, where my master’s thesis investigated methods of handling missing data in type I diabetes clinical trials. I have worked in a variety of therapeutic areas including autoimmune disease, obstetrics and gynecology, orthopedics, and oncology, where I have applied statistical methods such as age-period-cohort analyses, mediation analyses, and hierarchical models, among others. Click the link above to explore my portfolio for more details about what I’m currently working on.</p>
+<p>I work as a Research Biostatistician in the Department of
+Epidemiology &amp; Biostatistics at <a
+href="https://www.mskcc.org/departments/epidemiology-biostatistics">Memorial
+Sloan Kettering Cancer Center</a> (MSK). I am also a doctoral candidate
+in the Doctor of Public Health (DrPH) program in Biostatistics at <a
+href="https://www.mailman.columbia.edu/academics/degrees/doctoral-programs/doctor-public-health/biostatistics/drph-student-profiles">Columbia
+University</a>. In 2020, my classmates and I <a
+href="https://pubmed.ncbi.nlm.nih.gov/33326283/">wrote</a> about what
+it’s like to be pursuing a public health degree in the midst of a
+pandemic.</p>
+<p>I graduated from UNC Chapel Hill with a MS in Biostatistics in 2014,
+where my master’s thesis investigated methods of handling missing data
+in type I diabetes clinical trials. I have worked in a variety of
+therapeutic areas including autoimmune diseases, obstetrics and
+gynecology, orthopedics, and oncology, where I have applied statistical
+methods such as age-period-cohort analyses, mediation analyses, and
+hierarchical models, among others. Click the link above to explore my
+portfolio for more details about what I’m currently working on.</p>
 
 
 

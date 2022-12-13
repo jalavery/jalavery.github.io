@@ -13,7 +13,7 @@ output: html_document
   gtag('config', 'UA-137654852-1');
 </script>
 
-*I worked as a Biostatistician in the Columbia University Medical Center Department of Obstetrics and Gynecology from 2014-2016 as part of a team of four Master's level biostatisticians and a faculty-level epidemiologist. Below are a few projects that highlight my work on this team, as well as the statistical tools that were applied in collaborative projects.*
+*I previously worked as a Biostatistician in the Columbia University Medical Center Department of Obstetrics and Gynecology from 2014-2016 as part of a team of four Master's level biostatisticians and a faculty-level epidemiologist. Below are a few projects that highlight my work on this team, as well as the statistical tools that were applied in our collaborative projects.*
 
 ### Safe Motherhood Initiative (SMI)
 

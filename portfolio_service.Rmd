@@ -13,17 +13,17 @@ output:  html_document
   gtag('config', 'UA-137654852-1');
 </script>
 
-I am committed to working towards a more inclusive field for the next generation of biostatisticians. To that end, I hold multiple roles as part of the Caucus for Women in Statistics and am a member of the Memorial Sloan Kettering Bridge to Biostats committee, which seeks to foster a more inclusive biostats community by creating programs to increase awareness of and interest in the field of Biostatistics among New York City public high school students. Related presentations, articles and memberships are highlighted below. 
+I am committed to working towards a more inclusive field for the next generation of biostatisticians. To that end, I have served in multiple roles as part of the Caucus for Women in Statistics and am a member of the Memorial Sloan Kettering [Bridge to Biostats](https://www.mskcc.org/departments/epidemiology-biostatistics/bridge-biostats) committee, which seeks to foster a more inclusive biostats community by creating programs to increase awareness of and interest in the field of Biostatistics among New York City public high school students. Related presentations, articles and memberships are highlighted below. 
 
-* Co-led 8th grade and high school “Biostats Day” to introduce students to biostatistics (December 2020, March 2021)
-* Organized a contributed panel discussion on [Skills & Strategies for Successful Negotiation](https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309555) at the Women in Statistics and Data Science Conference (2020) featuring panelists Dr. Emma Benn, Professor Lori Evarts, Dr. Shanthi Sethuraman, and Dr. Kelly Zou. A recap of the session will be published in the February 2021 issue of AmStat News.
-* Presented in an 8th grade Bridge to Enter Advanced Mathematics career day (July 2020)
-* Mentor in the New York Academy of Sciences' *1000 Girls, 1000 Futures* mentoring program (2018-Present). Published a corresponding [article](http://magazine.amstat.org/blog/2018/11/01/1000-girls-1000-futures/?utm_source=informz&utm_medium=email&utm_campaign=amstatnews&_zs=UvcOe1&_zl=vBfH5) highlighting this mentorship opportunity.   
+* Co-led 8th grade and high school “Biostats Days” to introduce students to biostatistics (December 2020, March 2021, April 2022, July 2022)
+* Organized a contributed panel discussion on [Skills & Strategies for Successful Negotiation](https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309555) at the Women in Statistics and Data Science Conference (2020) featuring panelists Dr. Emma Benn, Professor Lori Evarts, Dr. Shanthi Sethuraman, and Dr. Kelly Zou. A recap of the session was published in the February 2021 issue of [AmStat News](https://magazine.amstat.org/blog/2021/02/01/successful-negotiation).
+* Presented in an 8th grade Bridge to Enter Advanced Mathematics Career Day (July 2020)
+* Mentor in the New York Academy of Sciences' *1000 Girls, 1000 Futures* mentoring program (2018-2021). Published a corresponding [article](http://magazine.amstat.org/blog/2018/11/01/1000-girls-1000-futures/?utm_source=informz&utm_medium=email&utm_campaign=amstatnews&_zs=UvcOe1&_zl=vBfH5) highlighting this mentorship opportunity.   
 *  [Caucus for Women in Statistics](https://cwstat.org/)
-    * Social Media Officer (2020-Present)
+    * Social Media Officer (2020-2022)
     * Volunteer Coordinator (appointed position, 2019-2020)    
-    * Professional Development Committee Member (2020-Present)
-    * Promoting Positive Professional Environments for Everyone Committee Member (2020-Present)
+    * Professional Development Committee Member (2020-2021)
+    * Promoting Positive Professional Environments for Everyone Committee Member (2020-2021)
     * Moderated the March 2020 Caucus for Women in Statistics Lunch & Learn on [Navigating social media and managing your professional presence online](https://cwstat.org/march-31st-lunch-learn-on-creating-a-professional-online-presence-view-recording/). Check out my [blog post](blog_cws_social_media_webinar.html) about this Lunch & Learn for more information. 
 * Presented [Language and Tools for Establishing Influence as an Early-Career Statistician](https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802) at the Women in Statistics and Data Science Conference (2017) and published a corresponding [article](http://magazine.amstat.org/blog/2018/05/01/earlycareertools/).  
 *  Member of [RLadies NYC](http://www.rladiesnyc.org/)  

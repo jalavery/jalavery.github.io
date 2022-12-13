@@ -13,8 +13,8 @@
 
 <title>Presentations</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -310,7 +314,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -323,7 +327,7 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     portfolio
      
     <span class="caret"></span>
@@ -344,7 +348,7 @@ div.tocify {
   <a href="files/lavery_pagedown_resume.html">CV</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     blog
      
     <span class="caret"></span>
@@ -363,7 +367,7 @@ div.tocify {
 </li>
 <li>
   <a href="https://www.mskcc.org/profile/jessica-lavery">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -375,13 +379,13 @@ div.tocify {
 </li>
 <li>
   <a href="https://www.linkedin.com/in/jalavery/">
-    <span class="fas fa-linkedin fa-lg"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/jalavery">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -399,13 +403,33 @@ div.tocify {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="fonts/academicons.min.css"/></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="fonts/academicons.min.css"/></p>
 <div id="upcoming-presentations" class="section level2">
 <h2>Upcoming presentations</h2>
-<p>Real World Evidence to Profile Hospitals' Quality of Surgical Cancer Care at <a href="https://www.academyhealth.org/events/site/2019-health-datapalooza">AcademyHealth Datapalooza</a>, March 2019<br />
-<i> Abstract: Despite pressure to provide high quality, cost-effective cancer care, few data sources have been validated to facilitate measurement of provider performance. Administrative claims do not include clinical information regarding the cancer diagnosis, leading to questions of whether patients can be accurately identified and whether hospitals’ performance can be assessed in the absence of such information. We explored these questions in Medicare claims and will discuss the implications for the future of quantifying the quality of cancer care. This will allow patients to make informed decisions regarding where to pursue their care and providers to lead efforts to improve patient outcomes. </i><br><br></p>
-<p>##Past presentations <a href="https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548">Practical and Methodological Issues Related to Profiling Hospitals in the United States</a>, Joint Statistical Meetings, 2018<br />
-<br> <a href="https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802">Language and Tools for Establishing Influence as an Early-Career Statistician</a> Women in Statistics and Data Science Conference, 2017</p>
+<p>Real World Evidence to Profile Hospitals' Quality of Surgical Cancer
+Care at <a
+href="https://www.academyhealth.org/events/site/2019-health-datapalooza">AcademyHealth
+Datapalooza</a>, March 2019<br />
+<i> Abstract: Despite pressure to provide high quality, cost-effective
+cancer care, few data sources have been validated to facilitate
+measurement of provider performance. Administrative claims do not
+include clinical information regarding the cancer diagnosis, leading to
+questions of whether patients can be accurately identified and whether
+hospitals’ performance can be assessed in the absence of such
+information. We explored these questions in Medicare claims and will
+discuss the implications for the future of quantifying the quality of
+cancer care. This will allow patients to make informed decisions
+regarding where to pursue their care and providers to lead efforts to
+improve patient outcomes. </i><br><br></p>
+<p>##Past presentations <a
+href="https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548">Practical
+and Methodological Issues Related to Profiling Hospitals in the United
+States</a>, Joint Statistical Meetings, 2018<br />
+<br> <a
+href="https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303802">Language
+and Tools for Establishing Influence as an Early-Career Statistician</a>
+Women in Statistics and Data Science Conference, 2017</p>
 </div>
 
 
@@ -446,6 +470,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
