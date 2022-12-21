@@ -16,7 +16,7 @@ output:  html_document
   gtag('config', 'UA-137654852-1');
 </script>
 
-*Since 2017, I have worked as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. The below highlights a few research programs that I have been a part of, as well as related publications and presentations.*
+*Since 2017, I have worked as a Research Biostatistician in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. Below are a few highlights from research programs that I have been a part of, as well as related publications and presentations.*
 
 ### AACR Project GENIE BPC
 
@@ -24,16 +24,19 @@ American Association for Cancer Research (AACR) project [GENIE BPC](https://www.
 
 <font size="4"><i> Related Publications </font></i> 
 
+* Lavery JA, Brown S, Curry MA, et al. [A Data Processing Pipeline for the AACR Project GENIE Biopharma Collaborative Data with the {genieBPC} R Package](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac796/6909009). Bioinformatics (2022 in press).  
+  - {genieBPC} is available on [CRAN](https://cran.r-project.org/web/packages/genieBPC/index.html) and [GitHub](https://genie-bpc.github.io/genieBPC/).
+
 * Lavery JA, Lepisto E, Brown S, et al. [A Scalable Quality Assurance Process for Curating Oncology Electronic Health Records: The Project GENIE Biopharma Collaborative Approach](https://ascopubs.org/doi/full/10.1200/CCI.21.00105). JCO Clinical Cancer Informatics (2022).  
 * Brown S, Lavery JA, Shen R, et al. [Implications of Selection Bias Due to Delayed Study Entry in Clinical Genomic Studies](https://jamanetwork.com/journals/jamaoncology/article-abstract/2785693). JAMA Oncology (2021).  
 * Kehl KL, Riely GJ, Lepisto EM, et al. [Correlation Between Surrogate End Points and Overall Survival in a Multi-institutional Clinicogenomic Cohort of Patients With Non–Small Cell Lung or Colorectal Cancer](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2782339). JAMA Network Open (2021).
 
 <font size="4"><i> Related Presentations </font></i>  
 
-* Defining Real-World Recurrence in the AACR Project GENIE BPC Data. Presented at the 
-Memorial Sloan Kettering Lung Cancer Oncology Group Seminar Series (May 2021) and the Hospital Research Forum (November 2021).  
-* [A Statistician’s Role in a Quality Assurance of a Multi-Institution Electronic Health Record Curation Project.](https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309549) Contributed oral presentation, Women in Statistics and Data Science, 2020
-* [Progression-free survival estimates in non-small cell lung cancer when RECIST is unavailable: Project GENIE’s integration of genomic, therapeutic and phenomic data.](https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.9622) Contributed poster presentation, American Society of Clinical Oncology (ASCO) Annual Meeting, 2020
+* Defining Real-World Recurrence in the AACR Project GENIE BPC Data. Presented at the American Association for Cancer Research Annual Meeting (April 2021; [AACR Meeting News article](https://www.aacrmeetingnews.org/news/minisymposium-explores-real-world-examples-of-project-genie-applications/)), the
+Memorial Sloan Kettering Lung Cancer Oncology Group Seminar Series (May 2021), and the Memorial Sloan Kettering Hospital Research Forum (November 2021).  
+* [A Statistician’s Role in a Quality Assurance of a Multi-Institution Electronic Health Record Curation Project.](https://ww2.amstat.org/meetings/wsds/2020/onlineprogram/AbstractDetails.cfm?AbstractID=309549) Contributed oral presentation, Women in Statistics and Data Science (2020)
+* [Progression-free survival estimates in non-small cell lung cancer when RECIST is unavailable: Project GENIE’s integration of genomic, therapeutic and phenomic data.](https://ascopubs.org/doi/abs/10.1200/JCO.2020.38.15_suppl.9622) Contributed poster presentation, American Society of Clinical Oncology (ASCO) Annual Meeting (2020)
 
 ### Exercise Oncology
 
@@ -56,6 +59,6 @@ As part of a team of statisticians, health services researchers and oncologists 
 <font size="4"><i> Related Presentations </font></i>  
 
 * [It’s getting hot in here: A novel application of heatmaps to health outcomes research.](https://ww2.amstat.org/meetings/ichps/2020/onlineprogram/AbstractDetails.cfm?AbstractID=307824) Contributed presentation, International Conference on Health Policy Statistics, 2020
-* [A comparison of provider profiling approaches with respect to low-volume providers.](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=306713) Contributed presentation, Joint Statistical Meetings, 2019
-* [Real World Evidence to Profile Hospitals\' Quality of Surgical Cancer Care.](https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968) Contributed presentation, Academy Health Datapalooza, 2019   
-* [Practical and Methodological Issues Related to Profiling Hospitals in the United States.](https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548) Contributed panel session, Joint Statistical Meetings, 2018   
+* [A comparison of provider profiling approaches with respect to low-volume providers.](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=306713) Contributed presentation, Joint Statistical Meetings (2019)
+* [Real World Evidence to Profile Hospitals\' Quality of Surgical Cancer Care.](https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968) Contributed presentation, Academy Health Datapalooza (2019)   
+* [Practical and Methodological Issues Related to Profiling Hospitals in the United States.](https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548) Contributed panel session, Joint Statistical Meetings (2018) 
