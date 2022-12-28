@@ -25,7 +25,7 @@ American Association for Cancer Research (AACR) project [GENIE BPC](https://www.
 <font size="4"><i> Related Publications </font></i> 
 
 * Lavery JA, Brown S, Curry MA, et al. [A Data Processing Pipeline for the AACR Project GENIE Biopharma Collaborative Data with the {genieBPC} R Package](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac796/6909009). Bioinformatics (2022 in press).  
-  - {genieBPC} is available on [CRAN](https://cran.r-project.org/web/packages/genieBPC/index.html) and [GitHub](https://genie-bpc.github.io/genieBPC/).
+  - {genieBPC} is available on [CRAN](https://cran.r-project.org/web/packages/genieBPC/index.html) and [GitHub](https://genie-bpc.github.io/genieBPC/), and was included on the RStudio blog August 2022 list of [Top 40 New CRAN Packages](https://rviews.rstudio.com/2022/09/26/august-2022-top-40-new-cran-packages), out of approximately 200 packages released to CRAN that month. 
 
 * Lavery JA, Lepisto E, Brown S, et al. [A Scalable Quality Assurance Process for Curating Oncology Electronic Health Records: The Project GENIE Biopharma Collaborative Approach](https://ascopubs.org/doi/full/10.1200/CCI.21.00105). JCO Clinical Cancer Informatics (2022).  
 * Brown S, Lavery JA, Shen R, et al. [Implications of Selection Bias Due to Delayed Study Entry in Clinical Genomic Studies](https://jamanetwork.com/journals/jamaoncology/article-abstract/2785693). JAMA Oncology (2021).  
