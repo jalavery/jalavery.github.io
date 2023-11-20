@@ -13,7 +13,7 @@
 
 <title>Oncology Portfolio</title>
 
-<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +143,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -180,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,9 +185,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -419,6 +422,9 @@ and research projects investigating the role of exercise in preventing
 cancer and improving survival among people with cancer. Select
 publications are highlighted below:</p>
 <ul>
+<li>Lavery JA, Boutros PC, Scott JM, Tammela T, Moskowitz CS, Jones LW.
+<a href="">Pan-Cancer Analysis of Postdiagnosis Exercise and
+Mortality</a>. Journal of Clinical Oncology. 2023. 41:32, 4982-4992</li>
 <li>Michalski M, Rowed K, Lavery J, et al. <a
 href="https://www.jacc.org/doi/abs/10.1016/j.jaccao.2022.05.003">Validity
 of Estimated Cardiorespiratory Fitness in Patients With Primary Breast
@@ -438,61 +444,6 @@ href="https://bmjopen.bmj.com/content/11/8/e048218">Comparing the
 reporting and conduct quality of exercise and pharmacological randomised
 controlled trials: a systematic review</a>. BMJ Open
 2021;11:e048218.</li>
-</ul>
-</div>
-<div id="hospital-profiling" class="section level3">
-<h3>Hospital Profiling</h3>
-<p>As part of a team of statisticians, health services researchers and
-oncologists at MSK this portfolio of work focused on measuring the
-quality of surgical cancer care provided to patients across the United
-States. Hospital profiling refers to measuring each hospitals’ specific
-patient-level outcomes, and potentially reporting those outcomes
-publicly so that patients may make informed decisions regarding where to
-pursue care and hospitals may work towards improving their quality, when
-needed. This project is multifaceted, and involves validating a relevant
-data source for this endeavor, assessing variables essential for
-risk-adjustment, considering how to evaluate hospitals with few
-surgeries from which we can observe outcomes, and weighing the different
-statistical methods available to determine which is most appropriate
-given its implications.</p>
-<p><font size="4"><i> Related Publications </font></i></p>
-<ul>
-<li>Lipitz-Snyderman A, Lavery JA, Bach PB, et al. <a
-href="https://pubmed.ncbi.nlm.nih.gov/31918457/">Assessment of variation
-in 30-day mortality following cancer surgeries among older adults across
-US hospitals</a>. Cancer Medicine (2020).</li>
-<li>Lavery JA, Lipitz-Snyderman A, Li D, et al. <a
-href="https://pubmed.ncbi.nlm.nih.gov/31069903/">Assessing whether
-cancer stage is needed to evaluate measures of hospital surgical
-performance</a>. Journal of Evaluation in Clinical Practice (2020).</li>
-<li>Lavery JA, Lipitz-Snyderman A, Li D, et al. <a
-href="https://ascopubs.org/doi/full/10.1200/CCI.18.00093">Identifying
-Cancer-Directed Surgeries in Medicare Claims: A Validation Study Using
-SEER-Medicare Data</a>. JCO Clinical Cancer Informatics (2019).</li>
-</ul>
-<p><font size="4"><i> Related Presentations </font></i></p>
-<ul>
-<li><a
-href="https://ww2.amstat.org/meetings/ichps/2020/onlineprogram/AbstractDetails.cfm?AbstractID=307824">It’s
-getting hot in here: A novel application of heatmaps to health outcomes
-research.</a> Contributed presentation, International Conference on
-Health Policy Statistics, 2020</li>
-<li><a
-href="https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=306713">A
-comparison of provider profiling approaches with respect to low-volume
-providers.</a> Contributed presentation, Joint Statistical Meetings
-(2019)</li>
-<li><a
-href="https://academyhealth.confex.com/academyhealth/2019hdp/meetingapp.cgi/Session/19968">Real
-World Evidence to Profile Hospitals' Quality of Surgical Cancer
-Care.</a> Contributed presentation, Academy Health Datapalooza
-(2019)<br />
-</li>
-<li><a
-href="https://ww2.amstat.org/meetings/jsm/2018/onlineprogram/ActivityDetails.cfm?SessionID=215548">Practical
-and Methodological Issues Related to Profiling Hospitals in the United
-States.</a> Contributed panel session, Joint Statistical Meetings
-(2018)</li>
 </ul>
 </div>
 
