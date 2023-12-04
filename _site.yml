@@ -16,6 +16,8 @@ navbar:
       href: files/lavery_pagedown_resume.html
     - text: "blog"
       menu:
+        - text: "Deciding on a Doctorate in Biostatistics"
+          href: blog_grad_school.html
         - text: "{timetrackR}"
           href: blog_timetrackr.html
         - text: "CWS Social Media Webinar"
