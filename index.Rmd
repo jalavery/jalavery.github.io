@@ -18,7 +18,7 @@ title: " "
 <!-- <i>Research Biostatistican, Memorial Sloan Kettering Cancer Center</i> -->
 <!-- <br><br> -->
 
-<img src="images/Lavery_170407_12_round.png" style="width:25%; margin-right: 10px" align="left">
+<img src="images/Lavery_170407_12_round.png" style="width:27%; margin-right: 10px" align="left">
 
 I am currently a Senior Research Biostatistician in the Department of Epidemiology & Biostatistics at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics) (MSK). I am also a doctoral candidate in the Doctor of Public Health (DrPH) program in Biostatistics at [Columbia University](https://www.mailman.columbia.edu/academics/degrees/doctoral-programs/doctor-public-health/biostatistics/drph-student-profiles). My dissertation will focus on statistical methods for identifying heterogeneous treatment effects. 
 
